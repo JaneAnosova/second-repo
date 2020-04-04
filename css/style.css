@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#container {
+	margin: auto auto;
+	text-align: center;
+	width: 50%;
+	height: 590px;
+	border: solid;
+}
+
+#header {
+	background: gray;
+	width: 100%;
+	height: 100px;
+}
+
+#header img {
+	width: 100%;
+}
+
+#mainmenu {
+	background: black;
+	position: relative;
+	overflow: hidden;
+	height: 40px;
+	margin-top: 50px;
+}
+
+#mainmenu ul li {
+	list-style-type: none;
+	position: relative;
+	left: - 50%;
+	float: right;
+	margin: 0;
+	height: 40px;
+}
+
+#mainmenu ul li a {
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	padding: 0 25px;
+	line-height: 40px;
+}
+
+#mainmenu ul li a:hover {
+	background-color: red;
+}
+
+#content {
+	width: 100%;
+	height: 340px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+#content h2 {
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+
+.item {
+	float: left;
+	width: 200px;
+	height: 280px;
+	margin-left: 16px;
+	margin-top: 20px;
+}
+
+.item img {
+	width: 200px;
+	height: 200px;
+}
+
+.item p {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.item button {
+	padding: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.item button:hover {
+	color: red;
+}
+
+#footer {
+	background: black;
+	width: 100%;
+	height: 50px;
+}
+
+#footer p {
+	padding-top: 5px;
+	color: white;
+}
+
+/*Стили для страницы о компании*/
+#about p {
+	margin: 25px 20px;
+	line-height: 18px;
+	text-align: justify;
+}
+/*Конец стилей для страницы о компании */
+
+/*Стили для страницы контакты*/
+#contacts p {
+	text-align: justify;
+	font-family: sans-serif;
+	margin-top: 50px;
+	margin-left: 30px;
+	font-size: 20px;
+}
+/*Конец стилей для страницы контакты*/
